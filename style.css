@@ -1,0 +1,55 @@
+
+body {
+    font-family: cursive;
+    }
+
+h1 {
+    color: black;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px rgb(70, 70, 79);
+    box-shadow: 0cm;
+    }
+
+p {
+    margin: 0 auto;
+    width: 75%;
+    float: left;
+    color: rgb(197, 6, 6);
+    }
+
+.Heading1 img {
+    grid-template-columns: auto;
+    display: block;
+    margin-inline: auto;
+    height: 100px;
+    width: 200px;
+    float: left;
+    cursor: pointer;
+    transition: ease 0.5;
+    }
+
+img:hover {
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+input {
+        width: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+button {
+        background-color: #ccc;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+.contact h2{
+    width: 100%;
+    float:left;
+    padding: 10px;
+    scroll-margin-bottom: 10px;
+}
+
